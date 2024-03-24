@@ -13,8 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class SeventhQuestionActivity extends AppCompatActivity {
 
     private String question = "Which planet is known as the \"Morning Star\" or \"Evening Star\"?";
-    private String[] options = {"Mercury", "Venus", "Mars", "Jupiter"};
-    private int correctAnswerIndex = 1;
+    private String[] options = {"Mercury", "Mars", "Venus", "Jupiter"};
+    private int correctAnswerIndex = 2;
 
     private TextView textViewQuestion;
     private RadioGroup radioGroupOptions;

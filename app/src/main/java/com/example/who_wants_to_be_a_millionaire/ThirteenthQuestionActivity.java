@@ -13,8 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class ThirteenthQuestionActivity extends AppCompatActivity {
 
     private String question = "Who is the author of \"To Kill a Mockingbird\"?";
-    private String[] options = {"Harper Lee", "J.K. Rowling", "Stephen King", "George Orwell"};
-    private int correctAnswerIndex = 1;
+    private String[] options = {"George Orwell", "J.K. Rowling", "Stephen King", "Harper Lee"};
+    private int correctAnswerIndex = 3;
 
     private TextView textViewQuestion;
     private RadioGroup radioGroupOptions;

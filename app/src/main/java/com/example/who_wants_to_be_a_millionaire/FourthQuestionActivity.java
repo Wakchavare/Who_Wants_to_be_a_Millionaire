@@ -14,7 +14,7 @@ public class FourthQuestionActivity extends AppCompatActivity {
 
     private String question = "Who wrote the play \"Romeo and Juliet\"?";
     private String[] options = {"William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"};
-    private int correctAnswerIndex = 1;
+    private int correctAnswerIndex = 0;
 
     private TextView textViewQuestion;
     private RadioGroup radioGroupOptions;

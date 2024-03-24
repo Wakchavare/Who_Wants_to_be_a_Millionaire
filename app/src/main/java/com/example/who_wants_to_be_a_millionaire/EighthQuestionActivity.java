@@ -13,8 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class EighthQuestionActivity extends AppCompatActivity {
 
     private String question = "Who painted the Mona Lisa?";
-    private String[] options = {"Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Michelangelo"};
-    private int correctAnswerIndex = 1;
+    private String[] options = {"Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"};
+    private int correctAnswerIndex = 0;
 
     private TextView textViewQuestion;
     private RadioGroup radioGroupOptions;

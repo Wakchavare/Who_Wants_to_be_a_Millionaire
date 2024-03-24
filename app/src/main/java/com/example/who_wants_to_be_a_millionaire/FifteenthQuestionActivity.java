@@ -14,7 +14,7 @@ public class FifteenthQuestionActivity extends AppCompatActivity {
 
     private String question = "Which famous scientist developed the theory of relativity?";
     private String[] options = {"Isaac Newton", "Albert Einstein", "Marie Curie", "Galileo Galilei"};
-    private int correctAnswerIndex = 1;
+    private int correctAnswerIndex = 0;
 
     private TextView textViewQuestion;
     private RadioGroup radioGroupOptions;

@@ -14,7 +14,7 @@ public class EleventhQuestionActivity extends AppCompatActivity {
 
     private String question = "In which year did the Titanic sink?";
     private String[] options = {"1912", "1905", "1921", "1916"};
-    private int correctAnswerIndex = 1;
+    private int correctAnswerIndex = 0;
 
     private TextView textViewQuestion;
     private RadioGroup radioGroupOptions;

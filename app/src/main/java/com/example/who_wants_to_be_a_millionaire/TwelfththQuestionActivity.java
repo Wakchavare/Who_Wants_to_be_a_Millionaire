@@ -13,8 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class TwelfththQuestionActivity extends AppCompatActivity {
 
     private String question = "What is the chemical symbol for gold?";
-    private String[] options = {"Au", "Ag", "Fe", "Pb"};
-    private int correctAnswerIndex = 1;
+    private String[] options = {"Ag", "Fe", "Au", "Pb"};
+    private int correctAnswerIndex = 2;
 
     private TextView textViewQuestion;
     private RadioGroup radioGroupOptions;

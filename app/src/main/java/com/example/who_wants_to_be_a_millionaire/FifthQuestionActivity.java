@@ -13,8 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class FifthQuestionActivity extends AppCompatActivity {
 
     private String question = "What is the chemical symbol for water?";
-    private String[] options = {"H2O", "CO2", "NaCl", "O2"};
-    private int correctAnswerIndex = 1;
+    private String[] options = {"O2", "CO2", "NaCl", "H2O"};
+    private int correctAnswerIndex = 3;
 
     private TextView textViewQuestion;
     private RadioGroup radioGroupOptions;

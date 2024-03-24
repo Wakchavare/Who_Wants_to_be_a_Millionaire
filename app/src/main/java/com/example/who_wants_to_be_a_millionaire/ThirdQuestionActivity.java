@@ -13,8 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class ThirdQuestionActivity extends AppCompatActivity {
 
     private String question = "Which planet is known as the Red Planet?";
-    private String[] options = {"Venus", "Mars", "Jupiter", "Saturn"};
-    private int correctAnswerIndex = 1;
+    private String[] options = {"Mars", "Venus", "Jupiter", "Saturn"};
+    private int correctAnswerIndex = 0;
 
     private TextView textViewQuestion;
     private RadioGroup radioGroupOptions;

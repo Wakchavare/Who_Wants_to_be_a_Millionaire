@@ -14,7 +14,7 @@ public class NinethQuestionActivity extends AppCompatActivity {
 
     private String question = "What is the main ingredient in guacamole?";
     private String[] options = {"Avocado", "Tomato", "Onion", "Garlic"};
-    private int correctAnswerIndex = 1;
+    private int correctAnswerIndex = 0;
 
     private TextView textViewQuestion;
     private RadioGroup radioGroupOptions;

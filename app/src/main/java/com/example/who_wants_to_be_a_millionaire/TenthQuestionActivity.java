@@ -13,8 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class TenthQuestionActivity extends AppCompatActivity {
 
     private String question = "What is the chemical symbol for iron?";
-    private String[] options = {"Ir", "Fe", "Io", "In"};
-    private int correctAnswerIndex = 1;
+    private String[] options = {"Ir", "In", "Io", "Fe"};
+    private int correctAnswerIndex = 3;
 
     private TextView textViewQuestion;
     private RadioGroup radioGroupOptions;

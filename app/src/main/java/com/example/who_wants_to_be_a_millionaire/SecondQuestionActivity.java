@@ -13,8 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class SecondQuestionActivity extends AppCompatActivity {
 
     private String question = "What is the largest planet in our solar system?";
-    private String[] options = {"Earth", "Jupiter", "Mars", "Saturn"};
-    private int correctAnswerIndex = 1;
+    private String[] options = {"Earth", "Mars", "Jupiter", "Saturn"};
+    private int correctAnswerIndex = 2;
 
     private TextView textViewQuestion;
     private RadioGroup radioGroupOptions;
