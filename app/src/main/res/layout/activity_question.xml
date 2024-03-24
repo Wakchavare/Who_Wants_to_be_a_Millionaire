@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+    <!-- Header Section with Current Prize -->
+    <TextView
+        android:id="@+id/textView_prize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="Current Prize: $0"
+        android:textColor="#FF4081"
+        android:textSize="24sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+
+    <!-- Horizontal Line Divider -->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textView_prize"
+        android:background="#3F51B5" />
+
+    <!-- Question Section -->
+    <TextView
+        android:id="@+id/textView_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_prize"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:text="What is your favorite color?"
+        android:textColor="#3F51B5"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Options Section -->
+    <RadioGroup
+        android:id="@+id/radioGroupOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_question"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButton_option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Option 1"
+            android:textColor="#3F51B5"/>
+
+        <RadioButton
+            android:id="@+id/radioButton_option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Option 2"
+            android:textColor="#3F51B5"/>
+
+        <RadioButton
+            android:id="@+id/radioButton_option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Option 3"
+            android:textColor="#3F51B5"/>
+
+        <RadioButton
+            android:id="@+id/radioButton_option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Option 4"
+            android:textColor="#3F51B5"/>
+    </RadioGroup>
+
+    <!-- Confirm Button -->
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupOptions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Confirm"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="#FF4081"/>
+
+</RelativeLayout>

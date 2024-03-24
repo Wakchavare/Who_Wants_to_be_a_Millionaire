@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#dbd5eb"
+    tools:context=".VictoryActivity">
+
+    <!-- Congratulations Text -->
+    <TextView
+        android:id="@+id/textView_congrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Congratulations!"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <!-- Prize Amount Text -->
+    <TextView
+        android:id="@+id/textView_prize_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_congrats"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <!-- Play Again Button -->
+    <Button
+        android:id="@+id/button_play_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_prize_amount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Play Again"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="#FF4081" />
+
+</RelativeLayout>

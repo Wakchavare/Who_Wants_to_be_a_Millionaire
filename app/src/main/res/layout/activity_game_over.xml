@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#dbd5eb"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewGameOverMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Over!"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@android:color/black" />
+
+    <!-- Additional text for losing the game -->
+    <TextView
+        android:id="@+id/textViewLosingMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sorry, You lost the game."
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp" />
+
+</LinearLayout>
